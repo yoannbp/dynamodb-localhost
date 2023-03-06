@@ -29,11 +29,11 @@
     "test": "mocha test/*.test.js --reporter spec"
   },
   "dependencies": {
-    "chai": "^4.2.0",
-    "mkdirp": "^1.0.4",
-    "mocha": "^10.2.0",
     "progress": "^1.1.8",
     "rimraf": "^2.6.3",
     "tar": "^4.4.19"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
